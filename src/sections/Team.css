@@ -1,0 +1,223 @@
+/* =========================================================
+   CAIIC TEAM PAGE
+========================================================= */
+
+.team-page {
+  width: 100%;
+  min-height: 100vh;
+  background: #ffffff;
+  color: var(--text-dark);
+}
+
+/* HERO */
+
+.team-hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 70px 6%;
+  color: #ffffff;
+  background:
+    radial-gradient(circle at 86% 18%, rgba(226, 194, 117, 0.14), transparent 34%),
+    linear-gradient(135deg, var(--navy-dark), var(--navy) 58%, var(--navy-light));
+}
+
+.team-hero::after {
+  content: "";
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  right: -105px;
+  top: -175px;
+  border-radius: 50%;
+  border: 65px solid rgba(255, 255, 255, 0.045);
+}
+
+.team-hero-inner {
+  position: relative;
+  z-index: 2;
+  width: min(900px, 100%);
+  margin: auto;
+  text-align: center;
+}
+
+.team-badge {
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 7px 17px;
+  border: 1px solid rgba(226, 194, 117, 0.55);
+  border-radius: 30px;
+  background: rgba(184, 137, 43, 0.13);
+  color: var(--gold-light);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.team-hero h1 {
+  margin: 0;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(40px, 5vw, 60px);
+  line-height: 1.1;
+}
+
+.team-hero p {
+  max-width: 760px;
+  margin: 18px auto 0;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* CONTENT */
+
+.team-content {
+  width: 100%;
+  padding: 70px 6% 95px;
+  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 38%, #ffffff 100%);
+}
+
+.team-container {
+  width: min(1120px, 100%);
+  margin: auto;
+}
+
+.team-heading {
+  max-width: 760px;
+  margin: 0 auto 42px;
+  text-align: center;
+}
+
+.team-heading > span {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2.4px;
+}
+
+.team-heading h2 {
+  margin: 0;
+  color: var(--navy);
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(30px, 3.5vw, 45px);
+  line-height: 1.2;
+}
+
+/* MEMBER LIST */
+
+.team-list {
+  display: grid;
+  gap: 22px;
+}
+
+.team-member-card {
+  display: grid;
+  grid-template-columns: 210px 1fr;
+  gap: 30px;
+  align-items: center;
+
+  padding: 24px;
+
+  border: 1px solid var(--border);
+  border-radius: 18px;
+
+  background: #ffffff;
+
+  box-shadow: var(--shadow-sm);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.team-member-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+
+.team-member-photo-wrap {
+  width: 190px;
+  height: 210px;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #eef2f6;
+  border: 4px solid #ffffff;
+  box-shadow: 0 8px 22px rgba(10, 31, 68, 0.11);
+}
+
+.team-member-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.team-member-details {
+  min-width: 0;
+}
+
+.team-member-category {
+  display: inline-block;
+  margin-bottom: 9px;
+  color: var(--gold);
+  font-size: 10.5px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.team-member-details h3 {
+  margin: 0 0 8px;
+  color: var(--navy);
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(24px, 2.5vw, 34px);
+  line-height: 1.2;
+}
+
+.team-member-role {
+  margin: 0 0 13px;
+  color: var(--navy-light);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.team-member-description {
+  margin: 0 0 10px;
+  color: var(--text-dark);
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.team-member-expertise {
+  margin: 0;
+  color: var(--text-light);
+  font-size: 12.5px;
+  line-height: 1.65;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 760px) {
+  .team-hero {
+    padding: 56px 6%;
+  }
+
+  .team-content {
+    padding: 54px 5% 72px;
+  }
+
+  .team-member-card {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 22px;
+    text-align: center;
+  }
+
+  .team-member-photo-wrap {
+    width: 170px;
+    height: 190px;
+    margin: auto;
+  }
+}

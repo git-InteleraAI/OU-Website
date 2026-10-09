@@ -97,9 +97,6 @@ const About = () => {
                     <div className="caiic-cards-grid">
 
                         <article className="caiic-card">
-                            <span className="caiic-card-number">
-                                01
-                            </span>
 
                             <h3>
                                 Semiconductor Design
@@ -113,9 +110,6 @@ const About = () => {
                         </article>
 
                         <article className="caiic-card">
-                            <span className="caiic-card-number">
-                                02
-                            </span>
 
                             <h3>
                                 Artificial Intelligence
@@ -129,9 +123,6 @@ const About = () => {
                         </article>
 
                         <article className="caiic-card">
-                            <span className="caiic-card-number">
-                                03
-                            </span>
 
                             <h3>
                                 FPGA & SoC Technologies
@@ -144,9 +135,6 @@ const About = () => {
                         </article>
 
                         <article className="caiic-card">
-                            <span className="caiic-card-number">
-                                04
-                            </span>
 
                             <h3>
                                 Embedded Systems
