@@ -15,7 +15,7 @@ const teamMembers = [
     category: "PH.D.",
     description: "Low phase noise fractional-N ADPLL.",
     expertise: "Analog · Cadence, Siemens Calibre",
-    image: "/images/team/md-toufeeq-ahmed.jpg",
+    image: "/images/team/toufeeq.jpeg",
   },
   {
     name: "Ms. M. Shivani",
@@ -24,7 +24,7 @@ const teamMembers = [
     description:
       "Edge-AI enabled autonomous drone surveillance for border security and defence.",
     expertise: "Hardware accelerators for ML · Kria KV260",
-    image: "/images/team/m-shivani.jpg",
+    image: "/images/team/shivani.jpeg",
   },
   {
     name: "Ms. A. P. Vasanthi",

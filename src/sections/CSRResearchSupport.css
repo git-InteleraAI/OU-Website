@@ -1,0 +1,48 @@
+.csr-page{width:100%;min-height:100vh;background:#fff;color:var(--text-dark)}
+.csr-hero{position:relative;overflow:hidden;width:100%;padding:76px 6%;color:#fff;background:radial-gradient(circle at 84% 18%,rgba(226,194,117,.15),transparent 35%),linear-gradient(135deg,var(--navy-dark),var(--navy) 58%,var(--navy-light))}
+.csr-hero::before{content:"";position:absolute;width:360px;height:360px;right:-105px;top:-178px;border-radius:50%;border:68px solid rgba(255,255,255,.045)}
+.csr-hero-inner{position:relative;z-index:2;width:min(920px,100%);margin:auto;text-align:center}
+.csr-badge{display:inline-block;margin-bottom:14px;padding:7px 17px;border:1px solid rgba(226,194,117,.55);border-radius:30px;background:rgba(184,137,43,.13);color:var(--gold-light);font-size:11px;font-weight:800;letter-spacing:2.5px}
+.csr-hero h1{margin:0;font-family:"Playfair Display",Georgia,serif;font-size:clamp(40px,5vw,60px);line-height:1.1}
+.csr-hero p{max-width:760px;margin:18px auto 0;color:rgba(255,255,255,.88);font-size:15px;line-height:1.8}
+.csr-hero-button{margin-top:26px;padding:13px 24px;border:0;border-radius:9px;background:linear-gradient(135deg,var(--gold),var(--gold-light));color:var(--navy-dark);font-weight:800;cursor:pointer;transition:.2s ease}
+.csr-hero-button:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(184,137,43,.26)}
+.csr-container{width:min(1240px,100%);margin:auto}
+.csr-intro-section,.csr-areas-section,.csr-form-section,.csr-compliance-section{padding:78px 6% 92px}
+.csr-intro-layout{display:grid;grid-template-columns:.82fr 1.18fr;gap:clamp(38px,6vw,82px);align-items:start}
+.csr-intro-heading>span,.csr-section-heading>span,.csr-form-info>span,.csr-proposal-card>div:first-child>span,.csr-compliance-card>span{display:inline-block;margin-bottom:11px;color:var(--gold);font-size:11px;font-weight:800;letter-spacing:2.3px}
+.csr-intro-heading h2,.csr-section-heading h2,.csr-form-info h2,.csr-proposal-card h2,.csr-compliance-card h2{margin:0;color:var(--navy);font-family:"Playfair Display",Georgia,serif;font-size:clamp(30px,3.6vw,46px);line-height:1.2}
+.csr-accent-line{width:68px;height:4px;margin-top:22px;border-radius:999px;background:linear-gradient(90deg,var(--gold),var(--gold-light))}
+.csr-intro-copy{padding-left:26px;border-left:3px solid var(--gold-light)}
+.csr-intro-copy p{margin:0 0 18px;color:var(--text-light);font-size:15px;line-height:1.9;text-align:justify;text-align-last:left}
+.csr-areas-section{background:#f8fafc;border-top:1px solid #e8edf3;border-bottom:1px solid #e8edf3}
+.csr-section-heading{max-width:790px;margin:0 auto 44px;text-align:center}
+.csr-section-heading p{max-width:690px;margin:14px auto 0;color:var(--text-light);font-size:14.5px;line-height:1.75}
+.csr-areas-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.csr-area-card{display:flex;flex-direction:column;min-height:365px;padding:28px;border:1px solid #e1e7ee;border-radius:17px;background:#fff;box-shadow:0 10px 28px rgba(10,31,68,.06);transition:.25s ease}
+.csr-area-card:hover{transform:translateY(-6px);box-shadow:0 18px 38px rgba(10,31,68,.11)}
+.csr-card-topline{display:flex;align-items:center;gap:12px;margin-bottom:22px}.csr-card-topline>span{color:var(--gold);font-size:11px;font-weight:800}.csr-card-topline>div{flex:1;height:1px;background:linear-gradient(90deg,#e2c275,transparent)}
+.csr-area-card h3{margin:0 0 11px;color:var(--navy);font-size:18px;line-height:1.35}.csr-area-card>p{margin:0;color:var(--text-light);font-size:13.5px;line-height:1.72}
+.csr-support-detail{margin-top:19px;padding:14px 15px;border-radius:10px;background:#f8f5ed}.csr-support-detail strong{display:block;margin-bottom:5px;color:var(--gold);font-size:11px;text-transform:uppercase;letter-spacing:.8px}.csr-support-detail span{color:#556274;font-size:12.5px;line-height:1.6}
+.csr-area-card button{align-self:flex-start;margin-top:auto;padding:10px 0 2px;border:0;border-bottom:1px solid var(--gold);background:transparent;color:var(--navy);font-size:12.5px;font-weight:800;cursor:pointer}
+.csr-types-section{padding:78px 6% 90px;color:#fff;background:linear-gradient(135deg,var(--navy),var(--navy-dark))}
+.csr-heading-light h2{color:#fff}.csr-heading-light>span{color:var(--gold-light)}.csr-heading-light p{color:rgba(255,255,255,.76)}
+.csr-types-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}.csr-type-card{min-height:180px;padding:24px;border:1px solid rgba(255,255,255,.12);border-bottom:3px solid var(--gold);border-radius:13px;background:rgba(255,255,255,.06)}
+.csr-type-card h3{margin:0 0 10px;color:#fff;font-size:16px;line-height:1.4}.csr-type-card p{margin:0;color:rgba(255,255,255,.75);font-size:12.8px;line-height:1.65}
+.csr-proposal-section{padding:72px 6%;background:#fff}.csr-proposal-card{width:min(1240px,100%);margin:auto;display:grid;grid-template-columns:.8fr 1.2fr;gap:40px;padding:42px;border:1px solid #e5dfd1;border-radius:19px;background:linear-gradient(135deg,#fffdf8,#f8f5ec);box-shadow:0 12px 32px rgba(10,31,68,.06)}
+.csr-proposal-list p{margin:0 0 16px;color:var(--text-light);font-size:14px;line-height:1.8}
+.csr-form-section{background:#f8fafc;border-top:1px solid #e8edf3}.csr-form-layout{display:grid;grid-template-columns:.72fr 1.28fr;gap:40px;align-items:start}
+.csr-form-info{position:sticky;top:92px;padding:34px;border:1px solid #e5dfd1;border-radius:18px;background:#fff}.csr-form-info>p{margin:16px 0 26px;color:var(--text-light);font-size:14.5px;line-height:1.8}
+.csr-form-note{padding:18px;border-left:4px solid var(--gold);border-radius:8px;background:#f8f5ed}.csr-form-note strong{color:var(--navy);font-size:13.5px}.csr-form-note p{margin:6px 0 0;color:var(--text-light);font-size:12.5px;line-height:1.65}
+.csr-form{padding:34px;border:1px solid #e1e7ee;border-radius:18px;background:#fff;box-shadow:0 14px 38px rgba(10,31,68,.08)}
+.csr-form-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.csr-field{display:flex;flex-direction:column;gap:8px}.csr-field-full{grid-column:1/-1}
+.csr-field label{color:#263548;font-size:13px;font-weight:700}.csr-field label span,.csr-required-note span{color:#c7392f}
+.csr-field input,.csr-field select,.csr-field textarea{width:100%;padding:13px 14px;border:1px solid #d8e0e8;border-radius:10px;background:#fbfcfd;color:var(--text-dark);font:inherit;font-size:13.5px;outline:none;transition:.2s ease}
+.csr-field input:focus,.csr-field select:focus,.csr-field textarea:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(184,137,43,.12)}.csr-field textarea{resize:vertical}.csr-field small{color:#7a8593;font-size:11.5px;line-height:1.5}
+.csr-submit-button{margin-top:24px;padding:13px 24px;border:0;border-radius:9px;background:linear-gradient(135deg,var(--gold),var(--gold-light));color:var(--navy-dark);font-weight:800;cursor:pointer;transition:.2s ease}
+.csr-submit-button:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(184,137,43,.24)}
+.csr-success{margin-top:18px;padding:15px 17px;border:1px solid #b8d9c4;border-radius:10px;background:#f0faf3;color:#275c38;font-size:13px;line-height:1.65}.csr-required-note{margin:14px 0 0;color:#778292;font-size:11.5px}
+.csr-compliance-section{background:#fff}.csr-compliance-card{max-width:1050px;margin:auto;padding:40px;border-radius:18px;border:1px solid #e5dfd1;background:linear-gradient(135deg,#fffdf8,#f8f5ec);text-align:center}.csr-compliance-card p{max-width:850px;margin:17px auto 0;color:var(--text-light);font-size:13.5px;line-height:1.75}
+@media(max-width:1100px){.csr-areas-grid{grid-template-columns:repeat(2,1fr)}.csr-types-grid{grid-template-columns:repeat(3,1fr)}.csr-form-layout{grid-template-columns:1fr}.csr-form-info{position:static}}
+@media(max-width:760px){.csr-intro-layout,.csr-proposal-card{grid-template-columns:1fr}.csr-intro-copy{padding-left:18px}.csr-areas-grid,.csr-types-grid,.csr-form-grid{grid-template-columns:1fr}.csr-field-full{grid-column:auto}.csr-intro-section,.csr-areas-section,.csr-types-section,.csr-proposal-section,.csr-form-section,.csr-compliance-section{padding-left:5%;padding-right:5%}}
+@media(max-width:520px){.csr-hero{padding:58px 5%}.csr-area-card{min-height:auto}.csr-proposal-card,.csr-form,.csr-form-info,.csr-compliance-card{padding:24px 20px;border-radius:14px}}

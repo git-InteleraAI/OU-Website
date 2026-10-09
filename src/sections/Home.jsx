@@ -7,8 +7,7 @@ const Home = () => {
 
       <div className="quick-info-wrapper">
         <div className="quick-info-card">
-          <div className="info-icon">01</div>
-
+          
           <div className="quick-info-content">
             <h3>Our Vision</h3>
 
@@ -23,8 +22,7 @@ const Home = () => {
         </div>
 
         <div className="quick-info-card featured">
-          <div className="info-icon">02</div>
-
+      
           <div className="quick-info-content">
             <h3>Our Mission</h3>
 

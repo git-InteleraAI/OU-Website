@@ -20,6 +20,8 @@ import Team from "./sections/Team";
 import Publications from "./sections/Publications";
 import ResearchConsultancy from "./sections/ResearchConsultancy";
 import CoursesWorkshops from "./sections/CoursesWorkshops";
+import GrievanceRedressal from "./sections/GrievanceRedressal";
+import CSRResearchSupport from "./sections/CSRResearchSupport";
 
 const PlaceholderPage = ({ title }) => {
   return (
@@ -109,6 +111,16 @@ function App() {
         <Route
           path="/contact"
           element={<Contact />}
+        />
+
+        <Route
+          path="/grievance-redressal"
+          element={<GrievanceRedressal />}
+        />
+
+        <Route
+          path="/csr-support"
+          element={<CSRResearchSupport />}
         />
 
       </Routes>
