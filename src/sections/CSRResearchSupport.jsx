@@ -168,7 +168,6 @@ function CSRResearchSupport() {
               <div className="csr-field csr-field-full">
                 <label htmlFor="csr-document">Supporting Document</label>
                 <input id="csr-document" name="document" type="file" accept=".pdf,.doc,.docx" />
-                <small>Optional. Permanent file storage requires backend integration.</small>
               </div>
             </div>
 

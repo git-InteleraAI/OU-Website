@@ -133,7 +133,6 @@ function GrievanceRedressal() {
               <div className="grievance-field grievance-field-full">
                 <label htmlFor="gr-document">Supporting Document</label>
                 <input id="gr-document" name="document" type="file" accept=".pdf,.jpg,.jpeg,.png,.doc,.docx" />
-                <small>Optional. Permanent file storage requires backend integration.</small>
               </div>
               <label className="grievance-declaration grievance-field-full"><input type="checkbox" required /><span>I confirm that the information provided above is accurate to the best of my knowledge.</span></label>
             </div>

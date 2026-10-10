@@ -43,7 +43,7 @@ const teamMembers = [
       "ASIC beamforming PSK receiver, digital PLLs, an 8-bit counter taken to GDSII, and an op-amp with bandgap reference.",
     expertise:
       "ZCU102/ZCU104, Cadence, Vivado, MATLAB, RF test equipment",
-    image: "/images/team/shaik-haneef.jpg",
+    image: "/images/team/haneef.jpeg",
   },
 ];
 
